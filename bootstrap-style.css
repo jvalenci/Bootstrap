@@ -1,20 +1,29 @@
+header {
+    text-align:center;   
+}
 
-.jumbotron {
-    background-color: #567b5f;
+.headBack {
+    background:rgba(44, 118, 79, 0.95);
+    color: black;
 }
 
 h1 {
     font-family: cursive;
-    text-align: center;
 }
 
 h2{
     text-align: center;
+    font-weight: 600;
 }
 
 body {
     background: url("948220-forest.jpg") no-repeat center fixed; 
     background-size: cover;
+    font-family: "Times New Roman", Times, serif;
+}
+
+p{
+    font-size: 1.2em;
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
@@ -22,4 +31,24 @@ body {
     margin: auto;
   }
 
+#alert {
+    font-size: 1em;
+    font-style: italic;
+    text-align: center;
+}
 
+.transp {
+    background:rgba(242, 250, 246, 0.8);
+}
+
+.infoImg {
+    width: 30%;
+}
+
+
+
+
+
+.smallImg {
+    width: 5%;
+}
