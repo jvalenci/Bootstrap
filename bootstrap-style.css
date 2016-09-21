@@ -17,7 +17,7 @@ h2{
 }
 
 body {
-    background: url("948220-forest.jpg") no-repeat center fixed; 
+    background: url("pictures/948220-forest.jpg") no-repeat center fixed; 
     background-size: cover;
     font-family: "Times New Roman", Times, serif;
 }
@@ -33,11 +33,6 @@ p{
     margin-bottom: 2em;
 
   }
-
-.customPadding{
-    height:129px;
-    visibility:hidden;
-}
 
 #alert {
     font-size: 1em;
