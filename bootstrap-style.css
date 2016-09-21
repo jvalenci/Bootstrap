@@ -26,10 +26,18 @@ p{
     font-size: 1.2em;
 }
 
+
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    width: 70%;
+    width: 90%;
     margin: auto;
+    margin-bottom: 2em;
+
   }
+
+.customPadding{
+    height:129px;
+    visibility:hidden;
+}
 
 #alert {
     font-size: 1em;
