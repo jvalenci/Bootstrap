@@ -1,9 +1,12 @@
 header {
     text-align:center;   
 }
-
+/* Found in http://www.w3schools.com/css/css3_gradients.asp on 9/23/2016 */
 .headBack {
-    background:rgba(44, 118, 79, 0.95);
+    background: -webkit-linear-gradient(top, rgba(44, 118, 79, .99), rgba(44, 118, 79, 0.6)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top, rgba(44, 118, 79, .99), rgba(44, 118, 79, 0.6)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top, rgba(44, 118, 79, .99), rgba(44, 118, 79, 0.6)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, rgba(44, 118, 79, 1), rgba(44, 118, 79, 0.6)); /* Standard syntax (must be last) */
     color: black;
 }
 
